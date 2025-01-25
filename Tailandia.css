@@ -1,0 +1,38 @@
+#background {
+    background-color: #cc3333;
+
+    margin: 0px auto;
+    width: 900px;
+    height: 600px;
+    
+    top: 50px;
+    position: relative;
+}
+#background > .white-line {
+    background-color: white;
+
+    margin: 150px auto;
+    width: 900px;
+    height: 70px;
+    position: absolute;
+}
+
+div {
+    background-color:#333366;
+
+    margin: 70px auto;
+    width: 900px;
+    height: 200px;
+
+    position:absolute;
+}
+
+.white-line > div > div {
+    background-color: white;
+    
+    margin: 150px auto;
+    width: 900px;
+    height: 70px;
+    
+    position: absolute;
+ }
